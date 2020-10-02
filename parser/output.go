@@ -32,6 +32,7 @@ type reportCookieRecord struct {
 	Expiry       string
 	Secure       bool
 	HttpOnly     bool
+	SameSite     string
 	UsedRequests int
 	Category     string
 	Description  string
