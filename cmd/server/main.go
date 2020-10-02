@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/CookieScanner/parser"
-	"github.com/CovenantSQL/CookieScanner/utils"
+	"github.com/SaltGan/CookieScanner/cmd"
+	"github.com/SaltGan/CookieScanner/parser"
+	"github.com/SaltGan/CookieScanner/utils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
