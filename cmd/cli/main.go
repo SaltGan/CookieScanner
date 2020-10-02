@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/CookieScanner/parser"
+	"github.com/SaltGan/CookieScanner/cmd"
+	"github.com/SaltGan/CookieScanner/parser"
 	"github.com/pkg/errors"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
