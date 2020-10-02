@@ -221,6 +221,7 @@ func (t *Task) parseResponse(rc *recordCollector) (cookieCount int, resultData [
 			MaxAge:       cookie.MaxAge,
 			Secure:       cookie.Secure,
 			HttpOnly:     cookie.HttpOnly,
+			SameSite:     cookie.SameSite,
 			UsedRequests: cookieUsedCount[c],
 
 			Category:    category,
@@ -279,6 +280,7 @@ func (t *Task) parseResponse(rc *recordCollector) (cookieCount int, resultData [
 				Expiry:       estimatedDuration(expireTime.Sub(t.startTime)),
 				Secure:       cookie.Secure,
 				HttpOnly:     cookie.HttpOnly,
+				SameSite:     cookie.SameSite,
 				UsedRequests: cookieUsedCount[cookie.Name],
 
 				Category:    category,
